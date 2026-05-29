@@ -39,6 +39,16 @@
 
 ---
 
+### [Blog Social Media Distribution](https://github.com/f22363712-dotcom/fbd-blog/tree/feat/content-distribution-pipeline)
+
+> 把博客文章自动转译成多平台社媒分发资产的内容生产链路。
+
+当成品文章提交到博客仓库并成功部署后，GitHub Actions 会触发 Windmill Flow，为小红书、X、LinkedIn、知乎生成平台化文案和封面策略，并写入飞书多维表格等待人工审核发布。
+
+**Tech**：Astro · GitHub Actions · Windmill · DeepSeek · Feishu Bitable · Python
+
+---
+
 ### [FBD Wealth — 个性化财富目标规划系统](https://github.com/f22363712-dotcom/FBD-Wealth) *(Private / In Progress)*
 
 基于 AI 的个人财富规划系统，根据用户的目标、收入和生活方式生成定制化的财务路线图。
@@ -74,6 +84,8 @@
 - Obsidian 知识库构建
 - 个人博客自动化部署实践
 - 我如何搭建一个自动化社交媒体内容分发系统
+- AI 工程三层测试体系
+- emoji 正则表达式陷阱
 - 我为什么从 n8n 转向 Windmill
 - AI 编程助手的三种哲学
 - 从 Gateway 到 Learning Loop：AI Agent 的两种架构范式
