@@ -1,8 +1,19 @@
+<p align="center">
+  <img src="https://github-readme-stats.vercel.app/api?username=f22363712-dotcom&show_icons=true&theme=dark&hide_border=true" width="48%" />
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=f22363712-dotcom&layout=compact&theme=dark&hide_border=true&hide=html,css" width="48%" />
+</p>
+
+---
+
 # 你好，我是 Fang 👋
 
-我在搭建 **AI 自动化、个人知识系统与数字产品**，尝试把想法变成可运行、可迁移、可复用的工作流。
+### 🧠 把 AI 变成可运行的自动化流水线 · 把知识变成可持续的系统
 
 目前关注：`AI Automation` · `Vibe Coding` · `Obsidian` · `n8n / Windmill` · `Knowledge Management` · `International Politics & Economics`
+
+---
+
+🔥 **Recently**: [FBD Skill 集合](https://github.com/f22363712-dotcom/fbd-skill) — 刚发布 v1.2.0，新增 skill-review 技能审查器和 postmortem-note 复盘笔记工具
 
 ---
 
@@ -17,58 +28,57 @@
 
 ## Featured Projects
 
-### [my-automation](https://github.com/f22363712-dotcom/my-automation)
+### [FBD Skill Collection](https://github.com/f22363712-dotcom/fbd-skill) ![Python](https://img.shields.io/badge/-Markdown-000000) ![Claude Code](https://img.shields.io/badge/-Claude_Code-8B5CF6)
 
-两套已经开源的个人 AI 自动化工作流，面向 Obsidian 用户和 AI 工具爱好者。
+Claude Code 技能集合 —— 路由层 + 执行层双层架构。包含 project-compass 项目导航、sop-creator SOP 生成器、actor-reader 阅读框架、socratic-discuss 讨论伴侣、skill-review 技能审查器和 postmortem-note 复盘笔记。
+
+🔗 [View on GitHub](https://github.com/f22363712-dotcom/fbd-skill)
+
+---
+
+### [my-automation](https://github.com/f22363712-dotcom/my-automation) ![Python](https://img.shields.io/badge/-Python-3776AB) ![n8n](https://img.shields.io/badge/-n8n-00C853) ![DeepSeek](https://img.shields.io/badge/-DeepSeek-4F46E5)
+
+两套已开源的个人 AI 自动化工作流，面向 Obsidian 用户和 AI 工具爱好者。
 
 #### Decision Fatigue Terminator
-
-> n8n + DeepSeek + Obsidian 的决策优先级助手。
-
-自动提取 Obsidian 中带 `#decision` 的事项，用 ICE 模型（Impact + Confidence + Ease）排序，并把最重要的下一步写回知识库。
+n8n + DeepSeek + Obsidian 的决策优先级助手。自动提取 Obsidian 中带 `#decision` 的事项，用 ICE 模型排序，并把下一步写回知识库。
 
 **Tech**：n8n · DeepSeek · Obsidian · Templater · Docker Compose
 
 #### Intelligence Collector
-
-> Python + AnySearch + DeepSeek + Obsidian 的每日情报收集系统。
-
-每日收集 AI 技术、国际政治和国际经济信息，生成中文摘要、signal 分和 `★★★/★★☆/★☆☆` 价值评级，并追加到 Obsidian Daily Note。
+Python + AnySearch + DeepSeek + Obsidian 的每日情报收集系统。每日收集 AI 技术、国际政治和经济信息，生成中文摘要与价值评级。
 
 **Tech**：Python · AnySearch · DeepSeek · Obsidian Local REST API · Windows Task Scheduler
 
+🔗 [View on GitHub](https://github.com/f22363712-dotcom/my-automation)
+
 ---
 
-### [Blog Social Media Distribution](https://github.com/f22363712-dotcom/fbd-blog/tree/feat/content-distribution-pipeline)
+### [Blog Social Media Distribution](https://github.com/f22363712-dotcom/fbd-blog/tree/feat/content-distribution-pipeline) ![Astro](https://img.shields.io/badge/-Astro-FF5D01) ![GitHub Actions](https://img.shields.io/badge/-GitHub_Actions-2088FF) ![DeepSeek](https://img.shields.io/badge/-DeepSeek-4F46E5)
 
-> 把博客文章自动转译成多平台社媒分发资产的内容生产链路。
-
-当成品文章提交到博客仓库并成功部署后，GitHub Actions 会触发 Windmill Flow，为小红书、X、LinkedIn、知乎生成平台化文案和封面策略，并写入飞书多维表格等待人工审核发布。
+把博客文章自动转译成多平台社媒分发资产的内容生产链路。博客部署后自动触发 GitHub Actions，为小红书、X、LinkedIn、知乎生成平台化文案和封面策略。
 
 **Tech**：Astro · GitHub Actions · Windmill · DeepSeek · Feishu Bitable · Python
 
----
-
-### [FBD Wealth — 个性化财富目标规划系统](https://github.com/f22363712-dotcom/FBD-Wealth) *(Private / In Progress)*
-
-基于 AI 的个人财富规划系统，根据用户的目标、收入和生活方式生成定制化的财务路线图。
-
-- 从真实财富案例中构建结构化数据管道
-- 用 LLM 将非结构化内容解析为标准化案例档案
-- 通过 Fake Door 落地页验证需求，再决定是否进入完整产品开发
-- **Tech**：Python · SQLite · Redis · FastAPI · LLM
+🔗 [View on GitHub](https://github.com/f22363712-dotcom/fbd-blog/tree/feat/content-distribution-pipeline)
 
 ---
 
-### [Heart Rhythm — 心动积分系统](https://github.com/f22363712-dotcom/Heart-Rythm)
+### [Heart Rhythm — 心动积分系统](https://github.com/f22363712-dotcom/Heart-Rythm) ![Python](https://img.shields.io/badge/-Python-3776AB) ![FastAPI](https://img.shields.io/badge/-FastAPI-009688) ![PWA](https://img.shields.io/badge/-PWA-5C3DC0)
 
-专为情侣设计的积分与奖励 Web 应用，将日常互动游戏化。
+专为情侣设计的积分与奖励 Web 应用，将日常互动游戏化。FastAPI 后端 + Flask 前端，支持 PWA 离线访问和手机主屏安装。
 
-- FastAPI 后端 + Flask 前端
-- 从 JSON 存储迁移到规范化 SQLite
-- Token 认证、情侣数据隔离、角色权限控制
-- PWA 支持离线访问和手机主屏安装
-- **Tech**：Python · FastAPI · Flask · SQLite · Bootstrap 5 · PWA
+**Tech**：Python · FastAPI · Flask · SQLite · Bootstrap 5 · PWA
+
+🔗 [View on GitHub](https://github.com/f22363712-dotcom/Heart-Rythm)
+
+---
+
+### [FBD Wealth — 个性化财富目标规划系统](https://github.com/f22363712-dotcom/FBD-Wealth) *(Private / In Progress)* ![Python](https://img.shields.io/badge/-Python-3776AB) ![FastAPI](https://img.shields.io/badge/-FastAPI-009688) ![SQLite](https://img.shields.io/badge/-SQLite-003B57)
+
+基于 AI 的个人财富规划系统。从真实财富案例中构建结构化数据管道，用 LLM 将非结构化内容解析为标准化案例档案，通过 Fake Door 落地页验证需求。
+
+**Tech**：Python · SQLite · Redis · FastAPI · LLM
 
 ---
 
@@ -80,7 +90,7 @@
 
 一些代表性主题：
 
-- 个人情报系统 v2：从“能用”到“好用”的三次迭代
+- 个人情报系统 v2：从"能用"到"好用"的三次迭代
 - Obsidian 知识库构建
 - 个人博客自动化部署实践
 - 我如何搭建一个自动化社交媒体内容分发系统
@@ -117,8 +127,8 @@
 
 ---
 
-## Links
+## 📫 Find Me
 
-- Blog: [wisdomprime.com](https://www.wisdomprime.com/)
-- Automation workflows: [my-automation](https://github.com/f22363712-dotcom/my-automation)
-- GitHub: [f22363712-dotcom](https://github.com/f22363712-dotcom)
+- 📝 Blog: [wisdomprime.com](https://www.wisdomprime.com/)
+- 📧 Email: 15329695992@163.com
+- 🐙 GitHub: [f22363712-dotcom](https://github.com/f22363712-dotcom)
