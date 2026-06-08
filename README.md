@@ -1,6 +1,9 @@
 <p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=f22363712-dotcom&show_icons=true&theme=dark&hide_border=true" width="48%" />
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=f22363712-dotcom&layout=compact&theme=dark&hide_border=true&hide=html,css" width="48%" />
+  <img src="https://img.shields.io/github/followers/f22363712-dotcom?style=for-the-badge&logo=github&label=GitHub&color=333" />
+  <img src="https://img.shields.io/badge/Blog-wisdomprime.com-FF5D01?style=for-the-badge&logo=astro&logoColor=white" />
+  <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" />
+  <img src="https://img.shields.io/badge/n8n-00C853?style=for-the-badge&logo=n8n&logoColor=white" />
+  <img src="https://img.shields.io/badge/Obsidian-7C3AED?style=for-the-badge&logo=obsidian&logoColor=white" />
 </p>
 
 ---
